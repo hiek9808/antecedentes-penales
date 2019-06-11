@@ -5,10 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pe.isil.anpreos.model.Condena;
-import pe.isil.anpreos.model.Penal;
 import pe.isil.anpreos.model.Reo;
-import pe.isil.anpreos.service.DelitoService;
-import pe.isil.anpreos.service.PenalService;
 import pe.isil.anpreos.service.ReoService;
 
 import java.util.List;
@@ -19,12 +16,6 @@ public class ReoResource {
 
     @Autowired
     ReoService reoService;
-
-    @Autowired
-    PenalService penalService;
-
-    @Autowired
-    DelitoService delitoService;
 
 
     //lista de todos los reos
@@ -82,6 +73,22 @@ public class ReoResource {
         }
         reoService.delete(currentReo);
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    //llamada de las condenas de un reo por su id
+    @GetMapping("/reos/{id}/condenas")
+    public ResponseEntity getCondenasReoById(@PathVariable Integer id){
+        Reo reo = reoService.findById(id);
+        if(reo == null){
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+        }
+
+        List<Condena> condenas = reo.getCondenas();
+        if (condenas.isEmpty()){
+            return new ResponseEntity(HttpStatus.NO_CONTENT);
+        }
+
+        return new ResponseEntity<>(condenas, HttpStatus.OK);
     }
     
 }

@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Data
-@JsonIgnoreProperties({"condenas", "handler"})
+@JsonIgnoreProperties({"condenas", "hibernateLazyInitializer", "handler"})
 public class Delito {
 
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "delito_generator")
