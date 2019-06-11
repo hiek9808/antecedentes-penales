@@ -18,7 +18,7 @@ import java.util.List;
 public class ReoResource {
 
     @Autowired
-    private ReoService reoService;
+    ReoService reoService;
 
     @Autowired
     PenalService penalService;
