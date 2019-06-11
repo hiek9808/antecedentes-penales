@@ -18,7 +18,7 @@ import java.util.List;
 public class ReoResource {
 
     @Autowired
-    ReoService reoService;
+    private ReoService reoService;
 
     @Autowired
     PenalService penalService;
@@ -26,6 +26,8 @@ public class ReoResource {
     @Autowired
     DelitoService delitoService;
 
+
+    //lista de todos los reos
     @GetMapping("/reos")
     public ResponseEntity getAll(){
         List<Reo> reos = reoService.findAll();
@@ -35,6 +37,7 @@ public class ReoResource {
         return new ResponseEntity<>(reos, HttpStatus.OK);
     }
 
+    //llamada del reo por su id
     @GetMapping("/reos/{id}")
     public ResponseEntity getReoById(@PathVariable Integer id){
         Reo reo = reoService.findById(id);
@@ -44,6 +47,7 @@ public class ReoResource {
         return new ResponseEntity<>(reo, HttpStatus.OK);
     }
 
+    //creacion de un nuevo reo
     @PostMapping("/reos")
     public ResponseEntity createReo(@RequestBody Reo reo){
         for (Condena condena : reo.getCondenas()){
@@ -54,6 +58,7 @@ public class ReoResource {
         return new ResponseEntity<>(reo, HttpStatus.CREATED);
     }
 
+    //actualizacion de un reo por su id
     @PutMapping("/reos/{id}")
     public ResponseEntity updateReo(@PathVariable Integer id, @RequestBody Reo reo){
         Reo currentReo = reoService.findById(id);
@@ -68,6 +73,7 @@ public class ReoResource {
         return new ResponseEntity<>(reo, HttpStatus.OK);
     }
 
+    //eliminacion de un reo por su id
     @DeleteMapping("/reos/{id}")
     public ResponseEntity deleteReo(@PathVariable Integer id){
         Reo currentReo = reoService.findById(id);
