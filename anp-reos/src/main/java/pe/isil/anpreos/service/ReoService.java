@@ -38,4 +38,8 @@ public class ReoService implements BasicCrud<Reo, Integer> {
     public Reo findById(Integer id) {
         return reoRepository.getOne(id);
     }
+
+    public Reo findByDni(String dni){
+        return reoRepository.findByDni(dni);
+    }
 }

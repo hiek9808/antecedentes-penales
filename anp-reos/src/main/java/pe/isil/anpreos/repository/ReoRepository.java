@@ -6,4 +6,6 @@ import pe.isil.anpreos.model.Reo;
 
 @Repository
 public interface ReoRepository extends JpaRepository<Reo, Integer> {
+
+    Reo findByDni(String dni);
 }

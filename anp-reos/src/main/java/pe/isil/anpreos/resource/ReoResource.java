@@ -75,10 +75,26 @@ public class ReoResource {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    //llamada de las condenas de un reo por su id
+    /*//llamada de las condenas de un reo por su id
     @GetMapping("/reos/{id}/condenas")
     public ResponseEntity getCondenasReoById(@PathVariable Integer id){
         Reo reo = reoService.findById(id);
+        if(reo == null){
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+        }
+
+        List<Condena> condenas = reo.getCondenas();
+        if (condenas.isEmpty()){
+            return new ResponseEntity(HttpStatus.NO_CONTENT);
+        }
+
+        return new ResponseEntity<>(condenas, HttpStatus.OK);
+    }*/
+
+
+    @GetMapping("/reos/{dni}/condenas")
+    public ResponseEntity getCondenasReoById(@PathVariable String dni){
+        Reo reo = reoService.findByDni(dni);
         if(reo == null){
             return new ResponseEntity(HttpStatus.NOT_FOUND);
         }

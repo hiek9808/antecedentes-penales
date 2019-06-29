@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa2caedd-475d-46ef-8620-e48fa026f339" name="Default Changelist" comment="some comments">
-      <change afterPath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/DelitoResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/PenalResource.java" afterDir="false" />
+    <list default="true" id="aa2caedd-475d-46ef-8620-e48fa026f339" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Delito.java" beforeDir="false" afterPath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Delito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Penal.java" beforeDir="false" afterPath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Penal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/ReoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/ReoResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +18,11 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/ReoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="238">
               <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/PenalResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
+            <state relative-caret-position="986">
               <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/PenalService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="391">
               <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Condena.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="306">
               <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Penal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="102">
+              <caret line="10" column="61" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +82,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Delito.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="170">
               <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/DelitoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
+            <state relative-caret-position="510">
               <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Reo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="102">
               <caret line="11" column="49" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/ReoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="255">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -204,90 +200,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anpreos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anpreos" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anpreos" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anpreos" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="antecedentespenales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="antecedentespenales" type="462c0819:PsiDirectoryNode" />
-              <item name="anp-reos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -299,13 +212,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../isil-integration-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -346,7 +260,11 @@
       <workItem from="1558451753940" duration="14108000" />
       <workItem from="1558487107374" duration="381000" />
       <workItem from="1558722071717" duration="723000" />
-      <workItem from="1560263270457" duration="7585000" />
+      <workItem from="1560263270457" duration="7707000" />
+      <workItem from="1561648095858" duration="43000" />
+      <workItem from="1561648156031" duration="43000" />
+      <workItem from="1561756136947" duration="22000" />
+      <workItem from="1561756216468" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="some updates">
       <created>1560264367397</created>
@@ -369,17 +287,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560265547053</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some comments">
+      <created>1560272147767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560272147767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22797000" />
+    <option name="totallyTimeSpent" value="23064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -389,7 +313,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46209762" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46209762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,39 +416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/ReoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Condena.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/PenalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/ReoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="238">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -534,7 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/PenalResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
+        <state relative-caret-position="986">
           <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -542,20 +436,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Reo.java">
+    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/PenalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="391">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/DelitoResource.java">
+    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Condena.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        <state relative-caret-position="306">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -564,8 +458,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Penal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="102">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/resource/DelitoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Reo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/service/ReoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,7 +498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anp-reos/src/main/java/pe/isil/anpreos/model/Delito.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="170">
           <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
